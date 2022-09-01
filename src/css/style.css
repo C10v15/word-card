@@ -1,0 +1,76 @@
+body{
+    background-color: var(--neutral-Dark-Blue);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+.square{
+    max-width: 542px;
+    height: 330px;
+    background-color: var(--neutral-Dark-Grayish-Blue);
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.square .title{
+    text-align: center;
+    color: var(--primary-Neon-Green);
+    font-size: 10px;
+    margin-top: 20px;
+}
+.square .advice{
+    text-align: center;
+    color: var(--primary-Light-Cyan);
+    font-size: 28px;
+    margin-top: 20px;
+    padding: 9px;
+}
+
+.square .patter-divider{
+    margin-top: 22px;
+    text-align: center; 
+}
+.square .btn{
+    text-align: center;
+    
+}
+
+.square .btn img{
+    margin-top: 40px;
+   background-color: var(--primary-Neon-Green);
+    padding: 15px;
+    
+    
+}
+
+
+/* .square .icon-dice img:hover{
+   box-shadow: 0 5px 15px var(--primary-Neon-Green);
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
